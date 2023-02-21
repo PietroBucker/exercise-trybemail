@@ -1,38 +1,55 @@
-.App {
+body {
+}
+
+header {
+  background-color: green;
   text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid greenyellow;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div-buttons {
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttons {
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(79, 204, 232);
+  font-size: 100%;
+  margin: 1%;
+  background-color: rgb(23, 82, 105);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.email-content {
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+  
+}
+.emails {
+  background-color: rgba(127, 255, 212, 0.205);
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  border-radius: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h4 {
+  width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.unread {
+  background-color: rgba(107, 107, 107, 0.596);
+  border: 1px solid rgba(255, 255, 0, 0.527);
 }

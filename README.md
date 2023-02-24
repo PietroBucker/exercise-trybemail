@@ -1,3 +1,11 @@
+Neste exercício, vamos desenvolver uma aplicação que renderiza uma lista de e-mails. A aplicação deve permitir que seja possível marcar um e-mail como lido ou não lido.
+
+Deploy:
+If you are interested in seeing the final result you can access it by this link.[TrybeMail](https://trybemail-pietro-bucker.surge.sh/).
+
+
+
+------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
